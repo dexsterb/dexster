@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>Software Developer</pattern>
+        <template>
+            Software Developer/Engineer: This role involves designing, developing, and maintaining software applications.
+            Students proficient in programming languages, software development methodologies, 
+            and problem-solving skills are suited for positions as software developers or engineers.A software developer/engineer 
+            designs, develops, and maintains software applications.
+            <br/>Do you want to hear more about the selected field? 
+            <link>
+                <text> Visit following link for more information</text>
+                <url>https://www.computerscience.org/careers/software-developer/</url>
+            </link>
+        </template>
+</category>
+
+<category>
+    <pattern>Data</pattern>
+        <template>
+            Data Analyst/Scientist: Students interested in analyzing and interpreting data, statistical modeling, and using tools like Python, R, 
+            or SQL might consider roles as data analysts or data scientists. 
+            These roles involve extracting insights from data and making data-driven decisions.
+            <br/>Do you want to hear more about the selected field? 
+            <link>
+                <text> Visit following link for more information</text>
+                <url>https://ischoolonline.berkeley.edu/data-science/what-is-data-science/</url>
+            </link>
+        </template>
+        
+</category>
+
+<category>
+    <pattern>Cyber</pattern>
+        <template>
+            Cybersecurity Analyst/Engineer: Students with knowledge in cybersecurity principles, network security, ethical hacking, and information systems 
+            security can explore careers in cybersecurity. These roles involve protecting computer systems,
+            networks, and data from cyber threats.
+            <br/>Do you want to hear more about the selected field? 
+            <link>
+                <text> Visit following link for more information</text>
+                <url>https://www.comptia.org/blog/cybersecurity-engineer-vs-analyst-key-differences-and-similarities</url>
+            </link>
+        </template>
+
+</category>
+
+<category>
+    <pattern>Designer</pattern>
+        <template>
+            UX/UI Designer: Individuals with a creative flair, an understanding of user experience (UX), and user interface (UI) design principles
+            can consider roles in designing intuitive and user-friendly interfaces for websites, applications, and software products.
+            <br/>Do you want to hear more about the selected field? 
+            <link>
+                <text> Visit following link for more information</text>
+                <url>https://www.codecademy.com/resources/blog/how-to-get-into-ui-ux-design/</url>
+            </link>
+        </template>
+
+</category>
+
+<category>
+    <pattern>Cloud Computing Specialist</pattern>
+        <template>
+            Cloud Computing Specialist: With the increasing adoption of cloud technologies, students familiar with cloud platforms like AWS, Azure, 
+            or Google Cloud and skills in cloud architecture, deployment, and management could pursue roles as cloud 
+            computing specialists, ensuring effective utilization of cloud resources for businesses.<br/>Do you want to hear more about the selected field? 
+            <link>
+                <text> Visit following link for more information</text>
+                <url>https://www.comptia.org/blog/your-next-move-cloud-specialist</url>
+            </link>
+        </template>
+
+</category>
+    
+</aiml>

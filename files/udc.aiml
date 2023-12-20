@@ -1,40 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-  <category>
+
+<category>
     <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+    <template>My apologies, I do not understand your request. <srai>Menu</srai></template>
   </category>
-<category>
-    <pattern>hi</pattern>
-    <template>Hello. My name is Dexster and I will assist you with career advice. 
-
-Please select one of the 5 job types and I will give you a brief description of each.
-
-Software
- Developer/Engineer
-
-Data Analyst/Scientist
-
-Cybersecurity Analyst/Engineer
-
-UX/UI Designer
-
-Cloud Computing Specialist
-
-
-
-
-
-
-
-</template>
-</category>
-<category>
-    <pattern>hello</pattern>
-    <template>Edit bot response</template>
-</category>
-<category>
-    <pattern></pattern>
-    <template></template>
-</category>
-</aiml>
+  
+    <category>
+        <pattern>Hello</pattern>
+        <template>
+         Nice to meet you.
+        I'm Dexster, your assistant career advisor. <srai> Menu </srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern> Hi </pattern>
+        <template><srai>Hello</srai></template>
+    </category>
+    
+    <category>
+        <pattern> hey </pattern>
+        <template><srai>Hello</srai></template>
+    </category>
+    
+ <category>    
+        <pattern>Menu</pattern>
+        <template>
+            <break></break>Please choose an interest and I will match it to best fit your computing career:<br/>
+            <button>
+                <text>1. Coding / Problem Solving</text>
+                <postback>Software Developer</postback>    
+            </button>
+            <button>
+                <text>2. Statistical Knowledge / Attention to Detail</text>
+                <postback>Data</postback>    
+            </button>
+            <button>
+                <text>3. Ethical Mindset / Hacking</text>
+                <postback>Cyber</postback>    
+            </button>
+            <button>
+                <text>4. Creativity / Designing</text>
+                <postback>Designer</postback>    
+            </button>
+            <button>
+                <text>5. Technical Skills / Security Awareness</text>
+                <postback>Cloud Computing Specialist</postback>    
+            </button>
+        </template>
+    </category>
+         
+   </aiml>
