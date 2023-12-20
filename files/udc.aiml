@@ -26,7 +26,7 @@
  <category>    
         <pattern>Menu</pattern>
         <template>
-            <break></break>Please choose an interest and I will match it to best fit your computing career:<br/>
+            <break></break>Please select an interest and I will match it to best fit your computing career:<br/>
             <button>
                 <text>1. Coding / Problem Solving</text>
                 <postback>Software Developer</postback>    
@@ -46,6 +46,10 @@
             <button>
                 <text>5. Technical Skills / Security Awareness</text>
                 <postback>Cloud Computing Specialist</postback>    
+            </button>
+             <button>
+                <text>6. None</text>
+                <postback>nonelist</postback>    
             </button>
         </template>
     </category>

@@ -5,7 +5,7 @@
         <template>
             Software Developer/Engineer: This role involves designing, developing, and maintaining software applications.
             Students proficient in programming languages, software development methodologies, 
-            and problem-solving skills are suited for positions as software developers or engineers.A software developer/engineer 
+            and problem-solving skills are suited for positions as software developers or engineers. A software developer/engineer 
             designs, develops, and maintains software applications.
             <br/>Do you want to hear more about the selected field? 
             <link>
@@ -68,6 +68,22 @@
             <link>
                 <text> Visit following link for more information</text>
                 <url>https://www.comptia.org/blog/your-next-move-cloud-specialist</url>
+            </link>
+        </template>
+
+</category>
+
+<category>
+    <pattern>nonelist</pattern>
+        <template>
+            Even if the mentioned disciplines don't align with your interests, there are numerous other exciting career
+            paths within the realm of technology and computing. From project management in IT to technical writing, from 
+            systems analysis to tech sales, the landscape of technology offers a wide array of diverse opportunities. 
+            Exploring fields like user experience research, tech journalism, or even IT consulting might unveil a path 
+            that resonates more closely with your passions and skills.<br/>Do you want to hear more about the selected field? Watch this video.
+            <link>
+                <text> Visit following link for more information</text>
+                <url>https://youtu.be/XmWkcePhf84?si=T4dcJroCaWVqTxAL</url>
             </link>
         </template>
 
